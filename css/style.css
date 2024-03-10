@@ -249,7 +249,6 @@ a.address-list:hover {
 }
 
 .experience-symbols-icon {
-  z-index: 999;
   position: absolute;
   top: 24px;
   left: 100px;
@@ -356,12 +355,6 @@ a.address-list:hover {
   margin-bottom: 72px;
 }
 
-.icons-team {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin: 9px 16px 0px 16px;
-}
 .list-section {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -868,6 +861,10 @@ img {
 .sub-form {
   display: flex;
   gap: 24px;
+}
+
+.sub {
+  margin-left: 80px;
 }
 
 .sub-btn {
